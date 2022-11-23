@@ -186,11 +186,19 @@ setInterval(function() {
 
 
 
-$('.tip').slideUp()
-$('.phone-input input')
+$('.tip-text').slideUp()
+$('.tip-number').slideUp()
+$('.text-input input')
     .focus(function() {
-        $('.tip').slideDown()
+        $('.tip-text').slideDown()
     })
     .blur(function() {
-        $('.tip').slideUp()
+        $('.tip-text').slideUp()
+    })
+$('.phone-input input')
+    .focus(function() {
+        $('.tip-number').slideDown()
+    })
+    .blur(function() {
+        $('.tip-number').slideUp()
     })

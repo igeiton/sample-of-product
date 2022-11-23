@@ -639,7 +639,11 @@ video {
   margin: 0px 0px 10px 0px;
 }
 
-.tip {
+.tip-text {
+  text-align: center;
+}
+
+.tip-number {
   text-align: center;
 }
 

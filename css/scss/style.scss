@@ -1,0 +1,25 @@
+@import 'null.scss';
+
+body {
+    font-family: 'Montserrat';
+}
+
+.container {
+    max-width: 1200px;
+    min-height: 100%;
+    margin: 0 auto;
+    @media (max-width: 1200px) {
+        padding: 0 15px;
+    }
+}
+a, a:visited {color: #000;}
+
+@import 'blocks/block-01.scss';
+
+@import 'blocks/block-02.scss';
+
+@import 'blocks/block-03.scss';
+
+@import 'blocks/block-04.scss';
+
+@import 'blocks/block-05.scss';

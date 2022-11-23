@@ -154,7 +154,7 @@ $.each(block, function() {
 
 $(document).ready(function() {
     var minutes = 29
-    var seconds = 3
+    var seconds = 60
     $('.timer-time span').text("30:00")
     var sI = setInterval(function() {
         seconds -= 1
